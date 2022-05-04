@@ -40,9 +40,9 @@ public class profile extends AppCompatActivity {
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url="http://192.168.0.109/CosmeticsApp/delete_purchases.php?username="+getIntent().getStringExtra("logged_user");
+                String url1="http://192.168.0.109/CosmeticsApp/delete_purchases.php?name="+getIntent().getStringExtra("logged_user");
                 DeleteTask task=new DeleteTask();
-                task.execute(url);
+                task.execute(url1);
             }
         });
 
