@@ -2,8 +2,12 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/abel</item>
+        <item>@font/advent_pro</item>
+        <item>@font/aguafina_script</item>
         <item>@font/akronim</item>
+        <item>@font/cedarville_cursive</item>
         <item>@font/chango</item>
         <item>@font/permanent_marker</item>
+        <item>@font/petit_formal_script</item>
     </array>
 </resources>

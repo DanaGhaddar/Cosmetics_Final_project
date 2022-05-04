@@ -3,9 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/item"
-    android:textSize="25dp"
+    android:textStyle="italic"
+    android:textSize="35dp"
 
-    android:fontFamily="@font/abel"
+android:textAlignment="center"
 android:textColor="@color/white"
     >
 
