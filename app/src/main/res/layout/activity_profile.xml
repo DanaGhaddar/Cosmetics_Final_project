@@ -8,7 +8,7 @@
     tools:context=".profile">
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/deletepurchases"
         android:layout_width="46dp"
         android:layout_height="46dp"
         app:layout_constraintBottom_toBottomOf="parent"
