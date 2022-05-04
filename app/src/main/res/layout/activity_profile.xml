@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/cosmetics_shop__9_"
+    android:background="@drawable/cosmetics_shop__10_"
     tools:context=".profile">
 
     <TextView
@@ -15,29 +15,29 @@
         android:text="Dana"
         android:textAlignment="center"
         android:textColor="#FAF8F8"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.932"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.139" />
+        app:layout_constraintVertical_bias="0.207" />
 
     <TextView
         android:id="@+id/agepr2"
-        android:layout_width="213dp"
-        android:layout_height="58dp"
+        android:layout_width="143dp"
+        android:layout_height="67dp"
         android:fontFamily="@font/chango"
         android:text="20"
         android:textAlignment="center"
         android:textColor="#FAFAFA"
-        android:textSize="34sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintHorizontal_bias="0.735"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.399" />
+        app:layout_constraintVertical_bias="0.378" />
 
     <TextView
         android:id="@+id/locpr2"
@@ -47,13 +47,13 @@
         android:text="Beirut"
         android:textAlignment="center"
         android:textColor="#FAFAFA"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.651" />
+        app:layout_constraintVertical_bias="0.559" />
 
     <Button
         android:id="@+id/deletepurchases"
