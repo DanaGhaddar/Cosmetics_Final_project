@@ -3,9 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/item"
-    android:textStyle="italic"
-    android:textSize="35dp"
 
+    android:textSize="35dp"
+android:fontFamily="@font/permanent_marker"
 android:textAlignment="center"
 android:textColor="@color/white"
     >

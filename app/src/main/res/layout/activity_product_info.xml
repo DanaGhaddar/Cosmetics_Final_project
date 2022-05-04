@@ -26,7 +26,7 @@
         android:id="@+id/textView13"
         android:layout_width="333dp"
         android:layout_height="160dp"
-        android:fontFamily="@font/advent_pro"
+        android:fontFamily="@font/antic"
         android:text="This is a list of our products from this category click on the name to view all the details related to the product"
         android:textAlignment="center"
         android:textColor="#FFFFFF"

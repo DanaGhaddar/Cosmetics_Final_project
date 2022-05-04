@@ -4,10 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/roundedbox.xml" value="0.2046875" />
+        <entry key="app/src/main/res/layout-w1240dp/activity_login2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-w936dp/activity_login2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.1503623188405797" />
+        <entry key="app/src/main/res/layout/activity_item_details.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1503623188405797" />
+        <entry key="app/src/main/res/layout/activity_login2.xml" value="0.12521633048410072" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.14387031408308004" />
-        <entry key="app/src/main/res/layout/activity_product_info.xml" value="0.1324200913242009" />
+        <entry key="app/src/main/res/layout/activity_product_info.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.1503623188405797" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.1503623188405797" />
         <entry key="app/src/main/res/layout/text_color_layout.xml" value="0.1503623188405797" />
