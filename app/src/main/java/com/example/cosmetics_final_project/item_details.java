@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,6 +26,7 @@ public class item_details extends AppCompatActivity {
 TextView title,origin,descr,price;
 Button purchase;
 String pricestr;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +36,7 @@ String pricestr;
         descr=(TextView) findViewById(R.id.desc);
         price=(TextView) findViewById(R.id.price);
         purchase=(Button)findViewById(R.id.button);
+
         title.setText(getIntent().getStringExtra("itemname"));
         String url = "http://192.168.0.109/CosmeticsApp/products_info.php";
         DownloadTask task = new DownloadTask();

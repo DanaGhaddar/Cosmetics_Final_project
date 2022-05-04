@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/roundedbox.xml" value="0.2046875" />
+        <entry key="app/src/main/res/drawable/roundedbox2.xml" value="0.2760416666666667" />
         <entry key="app/src/main/res/layout-w1240dp/activity_login2.xml" value="0.1" />
         <entry key="app/src/main/res/layout-w936dp/activity_login2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.1503623188405797" />
