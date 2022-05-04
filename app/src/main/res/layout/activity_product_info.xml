@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mymind_kg_bfyegxhk_unsplash"
+    android:background="@drawable/cosmetics_shop__5_"
     tools:context=".product_info">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="120dp"
         android:fontFamily="@font/chango"
         android:text="Category"
-        android:textColor="#FFFFFF"
+        android:textColor="#153646"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,30 +24,30 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="333dp"
-        android:layout_height="160dp"
+        android:layout_width="302dp"
+        android:layout_height="159dp"
         android:fontFamily="@font/antic"
         android:text="This is a list of our products from this category click on the name to view all the details related to the product"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="#153646"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.332" />
+        app:layout_constraintVertical_bias="0.279" />
 
     <ListView
         android:id="@+id/myList"
-        android:layout_width="412dp"
-        android:layout_height="367dp"
-        android:background="#A8FF8E00"
+        android:layout_width="410dp"
+        android:layout_height="328dp"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.994" />
+        app:layout_constraintVertical_bias="0.992" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
