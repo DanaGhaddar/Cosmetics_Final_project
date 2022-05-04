@@ -2,10 +2,12 @@ package com.example.cosmetics_final_project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -36,7 +38,6 @@ public class product_info extends AppCompatActivity {
         String url = "http://192.168.0.109/CosmeticsApp/products_info.php";
         DownloadTask task = new DownloadTask();
         task.execute(url);
-        adapter=new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,listarray);
 
 
     }
@@ -91,6 +92,15 @@ public class product_info extends AppCompatActivity {
 
                 adapter=new ArrayAdapter<String>(getApplication(), R.layout.text_color_layout,listarray);
                 list.setAdapter(adapter);
+                list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        Intent in=new Intent(getApplication(),item_details.class);
+                        in.putExtra("itemname",  listarray.get(i));
+                        startActivity(in);
+
+                    }
+                });
 
             }catch(Exception e){
                 e.printStackTrace();
