@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mymind_kg_bfyegxhk_unsplash"
+    android:background="@drawable/cosmetics_shop__2_"
     tools:context=".Signup">
 
     <EditText
@@ -50,32 +50,17 @@
         app:layout_constraintVertical_bias="0.341" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="215dp"
-        android:layout_height="94dp"
-        android:fontFamily="@font/chango"
-        android:text="SignUp Page"
-        android:textAlignment="center"
-        android:textColor="#FAFAFA"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.064" />
-
-    <TextView
         android:id="@+id/textView3"
         android:layout_width="172dp"
         android:layout_height="31dp"
         android:fontFamily="@font/abel"
         android:text="Already have an account"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="#153646"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintHorizontal_bias="0.326"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.834" />
@@ -87,11 +72,12 @@
         android:fontFamily="@font/abel"
         android:text="Login"
         android:textAlignment="textStart"
-        android:textColor="#2F9CE7"
+        android:textColor="#EBA49E"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.83" />
@@ -100,7 +86,8 @@
         android:id="@+id/submitsu"
         android:layout_width="205dp"
         android:layout_height="50dp"
-        android:background="#7C4500"
+        android:background="@drawable/roundedbox2"
+        android:backgroundTint="#EBA49E"
         android:text="Submit"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
