@@ -92,8 +92,8 @@
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="152dp"
-        android:layout_height="45dp"
+        android:layout_width="178dp"
+        android:layout_height="37dp"
         android:fontFamily="@font/convergence"
         android:text="Description:"
         android:textAlignment="center"
