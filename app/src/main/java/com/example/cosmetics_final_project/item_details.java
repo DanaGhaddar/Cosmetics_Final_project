@@ -29,7 +29,9 @@ TextView title,origin,descr,price;
         descr=(TextView) findViewById(R.id.desc);
         price=(TextView) findViewById(R.id.price);
         title.setText(getIntent().getStringExtra("itemname"));
-
+        String url = "http://192.168.0.109/CosmeticsApp/products_info.php";
+        DownloadTask task = new DownloadTask();
+        task.execute(url);
 
     }
 
