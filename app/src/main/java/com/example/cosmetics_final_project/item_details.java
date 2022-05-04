@@ -24,6 +24,7 @@ import java.net.URL;
 public class item_details extends AppCompatActivity {
 TextView title,origin,descr,price;
 Button purchase;
+String pricestr;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +43,9 @@ Button purchase;
         purchase.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url2 = "http://192.168.0.109/CosmeticsApp/purchases.php";
+                String userlogged=getIntent().getStringExtra("logged_user");
+                String pname=getIntent().getStringExtra("itemname");
+                String url2 = "http://192.168.0.109/CosmeticsApp/purchases.php?username"+userlogged+"&productname="+pname+"&quantity=1&price="+pricestr;
                 PurchaseTask ptask=new PurchaseTask();
                 ptask.execute(url2);
             }
@@ -96,7 +99,8 @@ Button purchase;
                     if(jsonobj.getString("name").equalsIgnoreCase(getIntent().getStringExtra("itemname"))){
                         origin.setText(jsonobj.getString("origin"));
                         descr.setText(jsonobj.getString("description"));
-                        price.setText(jsonobj.getString("price"));
+                        pricestr=jsonobj.getString("price");
+                        price.setText(pricestr);
                     }
                 }
 

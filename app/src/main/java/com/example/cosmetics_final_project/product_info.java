@@ -97,6 +97,7 @@ public class product_info extends AppCompatActivity {
                     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                         Intent in=new Intent(getApplication(),item_details.class);
                         in.putExtra("itemname",  listarray.get(i));
+                        in.putExtra("logged_user", getIntent().getStringExtra("logged_user"));
                         startActivity(in);
 
                     }
