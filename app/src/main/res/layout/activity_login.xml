@@ -75,6 +75,8 @@
         android:ems="10"
         android:hint="password"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="335dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
