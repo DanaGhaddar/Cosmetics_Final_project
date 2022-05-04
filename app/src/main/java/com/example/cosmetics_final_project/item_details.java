@@ -45,7 +45,7 @@ String pricestr;
             public void onClick(View view) {
                 String userlogged=getIntent().getStringExtra("logged_user");
                 String pname=getIntent().getStringExtra("itemname");
-                String url2 = "http://192.168.0.109/CosmeticsApp/purchases.php?username"+userlogged+"&productname="+pname+"&quantity=1&price="+pricestr;
+                String url2 = "http://192.168.0.109/CosmeticsApp/purchases.php?username="+userlogged+"&productname="+pname+"&quantity=1&price="+pricestr;
                 PurchaseTask ptask=new PurchaseTask();
                 ptask.execute(url2);
             }
@@ -156,12 +156,11 @@ String pricestr;
                 JSONObject json = new JSONObject(s);
                 String access = json.getString("error");
                 if(access.equalsIgnoreCase("")){
-                    Intent intent = new Intent(getApplicationContext(), Login.class);
-                    intent.putExtra("logged_user",name.getText().toString());
-                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "Purchase successfully added", Toast.LENGTH_SHORT).show();
+
                 }
                 else {
-                    Toast.makeText(getApplicationContext(), "Invalid credentials", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Something went wrong", Toast.LENGTH_SHORT).show();
                 }
             }catch(Exception e){
                 e.printStackTrace();
