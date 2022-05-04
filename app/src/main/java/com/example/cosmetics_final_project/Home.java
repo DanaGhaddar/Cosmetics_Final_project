@@ -11,16 +11,27 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class Home extends AppCompatActivity {
-    ImageView profilebtn,image;
+    ImageView profilebtn,image,image1,image2,image3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         profilebtn=(ImageView) findViewById(R.id.imageView19);
 
-         image = (ImageView)findViewById(R.id.imageView13);
+        image = (ImageView)findViewById(R.id.imageView13);
+        image1 = (ImageView)findViewById(R.id.imageView15);
+        image2 = (ImageView)findViewById(R.id.imageView16);
+        image3 = (ImageView)findViewById(R.id.imageView17);
+
         image.setX(-1000);
         image.animate().translationXBy(1000).rotation(3600).setDuration(2000);
+        image1.setX(-1000);
+        image1.animate().translationXBy(1000).rotation(3600).setDuration(2000);
+        image2.setX(-1000);
+        image2.animate().translationXBy(1000).rotation(3600).setDuration(2000);
+        image3.setX(-1000);
+        image3.animate().translationXBy(1000).rotation(3600).setDuration(2000);
+
 
 
 
