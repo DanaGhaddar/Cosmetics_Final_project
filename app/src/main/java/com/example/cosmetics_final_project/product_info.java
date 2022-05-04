@@ -89,7 +89,7 @@ public class product_info extends AppCompatActivity {
                     }
                 }
 
-                adapter=new ArrayAdapter<String>(getApplication(), android.R.layout.simple_list_item_1,listarray);
+                adapter=new ArrayAdapter<String>(getApplication(), R.layout.text_color_layout,listarray);
                 list.setAdapter(adapter);
 
             }catch(Exception e){
