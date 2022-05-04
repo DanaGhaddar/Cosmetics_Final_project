@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_never_give_up_quote_your_story__1_"
+    android:background="@drawable/cosmetics_shop__7_"
     tools:context=".item_details">
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="279dp"
         android:layout_height="65dp"
-        android:fontFamily="@font/akronim"
+        android:fontFamily="@font/allan"
         android:text="Itemname"
         android:textAlignment="center"
         android:textColor="#737373"
@@ -27,7 +27,7 @@
         android:id="@+id/textView16"
         android:layout_width="144dp"
         android:layout_height="39dp"
-        android:fontFamily="@font/akronim"
+        android:fontFamily="@font/convergence"
         android:text="Origin:"
         android:textAlignment="center"
         android:textColor="#BDECF4"
@@ -38,13 +38,13 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.329" />
+        app:layout_constraintVertical_bias="0.312" />
 
     <TextView
         android:id="@+id/price"
-        android:layout_width="94dp"
-        android:layout_height="67dp"
-        android:fontFamily="@font/akronim"
+        android:layout_width="89dp"
+        android:layout_height="62dp"
+        android:fontFamily="@font/convergence"
         android:text="30$"
         android:textAlignment="center"
         android:textColor="#BDECF4"
@@ -52,16 +52,16 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.015"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265" />
+        app:layout_constraintVertical_bias="0.21" />
 
     <TextView
         android:id="@+id/country"
         android:layout_width="279dp"
         android:layout_height="65dp"
-        android:fontFamily="@font/akronim"
+        android:fontFamily="@font/convergence"
         android:text="Country"
         android:textAlignment="center"
         android:textColor="#FFC9DE"
@@ -75,26 +75,26 @@
 
     <TextView
         android:id="@+id/desc"
-        android:layout_width="324dp"
-        android:layout_height="148dp"
-        android:fontFamily="@font/akronim"
+        android:layout_width="240dp"
+        android:layout_height="186dp"
+        android:fontFamily="@font/convergence"
         android:text="All the description needed"
         android:textAlignment="center"
         android:textColor="#FFC9DE"
-        android:textSize="30sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.662" />
+        app:layout_constraintVertical_bias="0.689" />
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="152dp"
         android:layout_height="45dp"
-        android:fontFamily="@font/akronim"
+        android:fontFamily="@font/convergence"
         android:text="Description:"
         android:textAlignment="center"
         android:textColor="#BDECF4"
@@ -109,16 +109,16 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#B1EEF6"
+        android:layout_width="111dp"
+        android:layout_height="49dp"
+        android:background="@drawable/roundedbox2"
+        android:backgroundTint="#B1EEF6"
         android:text="Purchase"
         android:textColor="#737373"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.855" />
+        app:layout_constraintVertical_bias="0.869" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
