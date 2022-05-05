@@ -25,8 +25,8 @@
 
     <TextView
         android:id="@+id/agepr2"
-        android:layout_width="143dp"
-        android:layout_height="67dp"
+        android:layout_width="153dp"
+        android:layout_height="43dp"
         android:fontFamily="@font/chango"
         android:text="20"
         android:textAlignment="center"
