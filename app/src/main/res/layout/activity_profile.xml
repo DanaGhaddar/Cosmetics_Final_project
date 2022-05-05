@@ -4,24 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/cosmetics_shop__10_"
+    android:background="@drawable/cosmetics_shop__11_"
     tools:context=".profile">
 
     <TextView
         android:id="@+id/namepr2"
-        android:layout_width="234dp"
-        android:layout_height="47dp"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
         android:fontFamily="@font/chango"
         android:text="Dana"
-        android:textAlignment="center"
-        android:textColor="#FAF8F8"
-        android:textSize="24sp"
+        android:textAlignment="viewStart"
+        android:textColor="#8C4A3D"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintHorizontal_bias="0.982"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.207" />
+
+    <TextView
+        android:id="@+id/namepr"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/chango"
+        android:text="Name"
+        android:textAlignment="viewStart"
+        android:textColor="#FAF8F8"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <TextView
+        android:id="@+id/namepr3"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/chango"
+        android:text="Age"
+        android:textAlignment="viewStart"
+        android:textColor="#FAF8F8"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <TextView
+        android:id="@+id/namepr4"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/chango"
+        android:text="Location"
+        android:textAlignment="viewStart"
+        android:textColor="#FAF8F8"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449" />
 
     <TextView
         android:id="@+id/agepr2"
@@ -29,31 +77,31 @@
         android:layout_height="43dp"
         android:fontFamily="@font/chango"
         android:text="20"
-        android:textAlignment="center"
-        android:textColor="#FAFAFA"
-        android:textSize="28sp"
+        android:textAlignment="viewStart"
+        android:textColor="#8C4A3D"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.735"
+        app:layout_constraintHorizontal_bias="0.693"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.378" />
+        app:layout_constraintVertical_bias="0.35" />
 
     <TextView
         android:id="@+id/locpr2"
-        android:layout_width="247dp"
-        android:layout_height="50dp"
+        android:layout_width="189dp"
+        android:layout_height="48dp"
         android:fontFamily="@font/chango"
         android:text="Beirut"
-        android:textAlignment="center"
-        android:textColor="#FAFAFA"
-        android:textSize="24sp"
+        android:textAlignment="viewStart"
+        android:textColor="#8C4A3D"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.559" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/deletepurchases"

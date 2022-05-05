@@ -43,7 +43,7 @@ public class Signup extends AppCompatActivity {
                 String agestr=age.getText().toString();
                 String locationstr=location.getText().toString();
                 String pass=password.getText().toString();
-                String url = "http://192.168.0.109/CosmeticsApp/signUp.php?name="+namestr+"&age="+agestr+"&location="+locationstr+"&password="+pass;
+                String url = "http://10.21.145.110/CosmeticsApp/signUp.php?name="+namestr+"&age="+agestr+"&location="+locationstr+"&password="+pass;
                 DownloadTask task=new DownloadTask();
                 task.execute(url);
             }

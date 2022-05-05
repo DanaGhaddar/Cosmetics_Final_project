@@ -35,7 +35,7 @@ public class product_info extends AppCompatActivity {
         t=(TextView)findViewById(R.id.textView7) ;
         t.setText(getIntent().getStringExtra("category")+" Category");
         listarray= new ArrayList<String>();
-        String url = "http://192.168.0.109/CosmeticsApp/products_info.php";
+        String url = "http://10.21.145.110/CosmeticsApp/products_info.php";
         DownloadTask task = new DownloadTask();
         task.execute(url);
 

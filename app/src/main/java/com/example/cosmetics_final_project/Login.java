@@ -58,7 +58,7 @@ public class Login extends AppCompatActivity {
         lgn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "http://192.168.0.109/CosmeticsApp/Login.php";
+                String url = "http://10.21.145.110/CosmeticsApp/Login.php";
 
                 DownloadTask task = new DownloadTask();
                 task.execute(url);

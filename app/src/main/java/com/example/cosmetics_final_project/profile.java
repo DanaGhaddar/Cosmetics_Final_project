@@ -23,7 +23,7 @@ import java.net.URL;
 
 public class profile extends AppCompatActivity {
     TextView name,age,loc;
-    Button delete,backhome;
+    Button deletebtn,backhome;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,10 +31,10 @@ public class profile extends AppCompatActivity {
         name=(TextView) findViewById(R.id.namepr2);
         age=(TextView) findViewById(R.id.agepr2);
         loc=(TextView) findViewById(R.id.locpr2);
-        delete=(Button) findViewById(R.id.deletepurchases);
+        deletebtn=(Button) findViewById(R.id.deletepurchases);
         backhome=(Button)findViewById(R.id.deletepurchases2) ;
         name.setText(getIntent().getStringExtra("logged_user"));
-        String url="http://192.168.0.109/CosmeticsApp/profile.php";
+        String url="http://10.21.145.110/CosmeticsApp/profile.php";
         DownloadTask t=new DownloadTask();
         t.execute(url);
 backhome.setOnClickListener(new View.OnClickListener() {
@@ -45,10 +45,10 @@ backhome.setOnClickListener(new View.OnClickListener() {
         startActivity(inn);
     }
 });
-        delete.setOnClickListener(new View.OnClickListener() {
+        deletebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url1="http://192.168.0.109/CosmeticsApp/delete_purchases.php?name="+getIntent().getStringExtra("logged_user");
+                String url1="http://10.21.145.110/CosmeticsApp/delete_purchases.php?name="+getIntent().getStringExtra("logged_user");
                 DeleteTask task=new DeleteTask();
                 task.execute(url1);
             }
@@ -152,7 +152,7 @@ backhome.setOnClickListener(new View.OnClickListener() {
                 JSONObject json = new JSONObject(s);
                 String access = json.getString("error");
                 if(access.equalsIgnoreCase("")){
-                    Toast.makeText(getApplicationContext(), "All you purchases have been deleted", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "All your purchases have been deleted", Toast.LENGTH_SHORT).show();
 
                 }
                 else {

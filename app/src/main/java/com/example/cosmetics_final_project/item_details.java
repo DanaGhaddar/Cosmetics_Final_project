@@ -38,7 +38,7 @@ String pricestr;
         purchase=(Button)findViewById(R.id.button);
 
         title.setText(getIntent().getStringExtra("itemname"));
-        String url = "http://192.168.0.109/CosmeticsApp/products_info.php";
+        String url = "http://10.21.145.110/CosmeticsApp/products_info.php";
         DownloadTask task = new DownloadTask();
         task.execute(url);
 
@@ -48,7 +48,7 @@ String pricestr;
             public void onClick(View view) {
                 String userlogged=getIntent().getStringExtra("logged_user");
                 String pname=getIntent().getStringExtra("itemname");
-                String url2 = "http://192.168.0.109/CosmeticsApp/purchases.php?username="+userlogged+"&productname="+pname+"&quantity=1&price="+pricestr;
+                String url2 = "http://10.21.145.110/CosmeticsApp/purchases.php?username="+userlogged+"&productname="+pname+"&quantity=1&price="+pricestr;
                 PurchaseTask ptask=new PurchaseTask();
                 ptask.execute(url2);
             }
